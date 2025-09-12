@@ -129,7 +129,7 @@ function App() {
             </div>
             {/* Weather Forecasting Card */}
 <a
-  href="https://agriai-predictor1.vercel.app/"
+  href="https://weather-station-taupe.vercel.app/"
   target="_blank"
   rel="noopener noreferrer"
   className="block" // ensures anchor behaves like a block
@@ -148,19 +148,24 @@ function App() {
 
 
 
-            {/* AI Predictions Card */}
-            <div className="group bg-gradient-to-br from-emerald-900/20 to-green-900/20 backdrop-blur-lg border border-emerald-500/30 rounded-2xl p-8 hover:border-emerald-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/20">
-              <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Network className="w-8 h-8 text-emerald-400" />
-              </div>
-              <h3 className="text-2xl font-bold text-emerald-300 mb-4">AI Predictions</h3>
-              <p className="text-gray-300 leading-relaxed">
-                Machine learning models for accurate yield forecasts using historical data, current conditions, and predictive analytics.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+{/* AI Predictions Card */}
+<a
+  href="https://agriai-predictor1.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block"
+>
+  <div className="group bg-gradient-to-br from-emerald-900/20 to-green-900/20 backdrop-blur-lg border border-emerald-500/30 rounded-2xl p-8 hover:border-emerald-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/20">
+    <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+      <Network className="w-8 h-8 text-emerald-400" />
+    </div>
+    <h3 className="text-2xl font-bold text-emerald-300 mb-4">AI Predictions</h3>
+    <p className="text-gray-300 leading-relaxed">
+      Machine learning models for accurate yield forecasts using historical data, current conditions, and predictive analytics.
+    </p>
+  </div>
+</a>
+
 
       {/* About Section */}
       <section id="about" className="py-20 px-6 relative">
