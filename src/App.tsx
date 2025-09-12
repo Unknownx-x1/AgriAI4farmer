@@ -127,17 +127,26 @@ function App() {
                 Analysis of soil pH, nutrients, and moisture levels with real-time monitoring and predictive analytics for optimal crop conditions.
               </p>
             </div>
-
             {/* Weather Forecasting Card */}
-            <div className="group bg-gradient-to-br from-teal-900/20 to-cyan-900/20 backdrop-blur-lg border border-teal-500/30 rounded-2xl p-8 hover:border-teal-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-teal-500/20">
-              <div className="bg-gradient-to-br from-teal-500/20 to-cyan-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Cloud className="w-8 h-8 text-teal-400" />
-              </div>
-              <h3 className="text-2xl font-bold text-teal-300 mb-4">Weather Forecasting</h3>
-              <p className="text-gray-300 leading-relaxed">
-                Real-time and long-term climate predictions using advanced meteorological data and machine learning algorithms.
-              </p>
-            </div>
+<a
+  href="https://agriai-predictor1.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block" // ensures anchor behaves like a block
+>
+  <div className="group bg-gradient-to-br from-teal-900/20 to-cyan-900/20 backdrop-blur-lg border border-teal-500/30 rounded-2xl p-8 hover:border-teal-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-teal-500/20">
+    <div className="bg-gradient-to-br from-teal-500/20 to-cyan-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+      <Cloud className="w-8 h-8 text-teal-400" />
+    </div>
+    <h3 className="text-2xl font-bold text-teal-300 mb-4">Weather Forecasting</h3>
+    <p className="text-gray-300 leading-relaxed">
+      Real-time and long-term climate predictions using advanced meteorological data and machine learning algorithms.
+    </p>
+  </div>
+</a>
+
+
+
 
             {/* AI Predictions Card */}
             <div className="group bg-gradient-to-br from-emerald-900/20 to-green-900/20 backdrop-blur-lg border border-emerald-500/30 rounded-2xl p-8 hover:border-emerald-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/20">
