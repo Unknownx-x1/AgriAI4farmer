@@ -111,7 +111,7 @@ function App() {
 
             {/* Weather Forecasting */}
             <a
-              href="https://weather-station-taupe.vercel.app/"
+              href="https://weather-station-latest.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="relative z-50 block"
