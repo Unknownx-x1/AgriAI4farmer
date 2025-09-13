@@ -112,7 +112,7 @@ function App() {
             {/* Weather Forecasting */}
             <a
               href="https://weather-station-latest.vercel.app/"
-              target="_blank"
+              
               rel="noopener noreferrer"
               className="relative z-50 block"
             >
@@ -130,7 +130,7 @@ function App() {
             {/* AI Predictions */}
             <a
               href="https://ai-insights-ten.vercel.app/"
-              target="_blank"
+              
               rel="noopener noreferrer"
               className="relative z-50 block"
             >
