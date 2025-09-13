@@ -129,7 +129,7 @@ function App() {
 
             {/* AI Predictions */}
             <a
-              href="https://agriai-predictor1.vercel.app/"
+              href="https://ai-predictions-weld.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="relative z-50 block"
