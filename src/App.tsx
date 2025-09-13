@@ -129,7 +129,7 @@ function App() {
 
             {/* AI Predictions */}
             <a
-              href="https://ai-predictions-latest.vercel.app/"
+              href="https://ai-insights-ten.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="relative z-50 block"
