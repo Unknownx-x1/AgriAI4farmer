@@ -98,32 +98,21 @@ function App() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-             {/* Soil Insights */}
-            <a
-              href="https://soilinsights.vercel.app/"
-              
-              rel="noopener noreferrer"
-              className="relative z-50 block"
-            >
-            
-           <div className="relative z-50 group bg-gradient-to-br from-green-900/20 to-emerald-900/20 backdrop-blur-lg border border-green-500/30 rounded-2xl p-8 hover:border-green-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/20">
-              <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Sprout className="w-8 h-8 text-green-400" />
+            {/* Soil Insights */}
+            <a href="https://soilinsights.vercel.app/" className="block relative z-50">
+              <div className="group bg-gradient-to-br from-green-900/20 to-emerald-900/20 backdrop-blur-lg border border-green-500/30 rounded-2xl p-8 hover:border-green-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/20">
+                <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <Sprout className="w-8 h-8 text-green-400" />
+                </div>
+                <h3 className="text-2xl font-bold text-green-300 mb-4">Soil Insights</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Analysis of soil pH, nutrients, and moisture levels with real-time monitoring and predictive analytics for optimal crop conditions.
+                </p>
               </div>
-              <h3 className="text-2xl font-bold text-green-300 mb-4">Soil Insights</h3>
-              <p className="text-gray-300 leading-relaxed">
-                Analysis of soil pH, nutrients, and moisture levels with real-time monitoring and predictive analytics for optimal crop conditions.
-              </p>
-            </div>
             </a>
 
             {/* Weather Forecasting */}
-            <a
-              href="https://weather-station-latest.vercel.app/"
-              
-              rel="noopener noreferrer"
-              className="relative z-50 block"
-            >
+            <a href="https://weather-station-latest.vercel.app/" className="block relative z-50">
               <div className="group bg-gradient-to-br from-teal-900/20 to-cyan-900/20 backdrop-blur-lg border border-teal-500/30 rounded-2xl p-8 hover:border-teal-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-teal-500/20">
                 <div className="bg-gradient-to-br from-teal-500/20 to-cyan-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Cloud className="w-8 h-8 text-teal-400" />
@@ -136,12 +125,7 @@ function App() {
             </a>
 
             {/* AI Predictions */}
-            <a
-              href="https://ai-insights-ten.vercel.app/"
-              
-              rel="noopener noreferrer"
-              className="relative z-50 block"
-            >
+            <a href="https://ai-insights-ten.vercel.app/" className="block relative z-50">
               <div className="group bg-gradient-to-br from-emerald-900/20 to-green-900/20 backdrop-blur-lg border border-emerald-500/30 rounded-2xl p-8 hover:border-emerald-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/20">
                 <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Network className="w-8 h-8 text-emerald-400" />
