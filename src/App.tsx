@@ -155,8 +155,8 @@ function App() {
               <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <Users className="w-8 h-8 text-green-400" />
               </div>
-              <h3 className="text-xl font-semibold text-green-300 mb-2">10,000+</h3>
-              <p className="text-gray-400">Active Farmers</p>
+              <h3 className="text-xl font-semibold text-green-300 mb-2"></h3>
+              <p className="text-gray-400">Aims to serve Active Farmers</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-teal-500/20 to-cyan-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
