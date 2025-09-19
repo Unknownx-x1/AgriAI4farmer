@@ -162,8 +162,8 @@ function App() {
               <div className="bg-gradient-to-br from-teal-500/20 to-cyan-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <Globe className="w-8 h-8 text-teal-400" />
               </div>
-              <h3 className="text-xl font-semibold text-teal-300 mb-2">50+</h3>
-              <p className="text-gray-400">Countries Served</p>
+              <h3 className="text-xl font-semibold text-teal-300 mb-2">+</h3>
+              <p className="text-gray-400">Hopes to Serve Countries to help people around</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
