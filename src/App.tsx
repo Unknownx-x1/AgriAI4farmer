@@ -44,39 +44,27 @@ function App() {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <button
-              onClick={() => scrollToSection("features")}
-              className="text-gray-300 hover:text-green-400 transition-all duration-300 relative group"
-            >
+            <button onClick={() => scrollToSection("features")} className="text-gray-300 hover:text-green-400 transition-all duration-300 relative group">
               Features
               <span className="absolute inset-x-0 -bottom-1 h-0.5 bg-green-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
             </button>
-            <button
-              onClick={() => scrollToSection("about")}
-              className="text-gray-300 hover:text-green-400 transition-all duration-300 relative group"
-            >
+            <button onClick={() => scrollToSection("about")} className="text-gray-300 hover:text-green-400 transition-all duration-300 relative group">
               About
               <span className="absolute inset-x-0 -bottom-1 h-0.5 bg-green-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
             </button>
-            <button
-              onClick={() => scrollToSection("contact")}
-              className="text-gray-300 hover:text-green-400 transition-all duration-300 relative group"
-            >
+            <button onClick={() => scrollToSection("contact")} className="text-gray-300 hover:text-green-400 transition-all duration-300 relative group">
               Contact
               <span className="absolute inset-x-0 -bottom-1 h-0.5 bg-green-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
             </button>
           </div>
 
-          {/* ✅ AI Chatbot Button with Link */}
-          <a
-            href="https://aipredchatbot12.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          {/* ✅ Fixed AI Chatbot Button */}
+          <button
+            onClick={() => window.open("https://aipredchatbot12.vercel.app/", "_blank")}
+            className="bg-gradient-to-r from-green-500 to-emerald-500 px-6 py-2 rounded-full font-semibold text-black hover:from-green-400 hover:to-emerald-400 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105"
           >
-            <button className="bg-gradient-to-r from-green-500 to-emerald-500 px-6 py-2 rounded-full font-semibold text-black hover:from-green-400 hover:to-emerald-400 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105">
-              AI Chatbot
-            </button>
-          </a>
+            AI Chatbot
+          </button>
         </div>
       </nav>
 
@@ -215,4 +203,3 @@ function App() {
 }
 
 export default App;
-
