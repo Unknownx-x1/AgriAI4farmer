@@ -59,7 +59,7 @@ function App() {
           </div>
 
           <button className="bg-gradient-to-r from-green-500 to-emerald-500 px-6 py-2 rounded-full font-semibold text-black hover:from-green-400 hover:to-emerald-400 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105">
-            Get Started
+            AI Chatbot
           </button>
         </div>
       </nav>
