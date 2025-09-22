@@ -192,8 +192,8 @@ function App() {
           <p className="text-gray-400 mb-4">© 2025 AgriAI. All rights reserved.</p>
           <p className="text-green-400">
             Contact:{" "}
-            <a href="mailto:hello@agriai.com" className="hover:text-green-300 transition-colors underline">
-              hello@agriai.com
+            <a href="mailto:agriai4farmers@gmail.com" className="hover:text-green-300 transition-colors underline">
+              agriai4farmers@gmail.com
             </a>
           </p>
         </div>
