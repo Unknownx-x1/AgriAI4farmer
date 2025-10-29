@@ -102,7 +102,7 @@ function App() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Soil Insights */}
+            {/* Marketplace */}
             <a href="https://soilinsights.vercel.app/" className="block relative z-50">
               <div className="group bg-gradient-to-br from-green-900/20 to-emerald-900/20 backdrop-blur-lg border border-green-500/30 rounded-2xl p-8 hover:border-green-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/20">
                 <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
