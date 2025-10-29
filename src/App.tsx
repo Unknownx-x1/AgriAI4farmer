@@ -129,7 +129,7 @@ function App() {
             </a>
 
             {/* AI Predictions */}
-            <a href="https://ai-insightssss.vercel.app/" className="block relative z-50">
+            <a href="https://huggingface.co/spaces/illegalmonkey/yield-predictor-app" className="block relative z-50">
               <div className="group bg-gradient-to-br from-emerald-900/20 to-green-900/20 backdrop-blur-lg border border-emerald-500/30 rounded-2xl p-8 hover:border-emerald-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/20">
                 <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Network className="w-8 h-8 text-emerald-400" />
