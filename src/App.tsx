@@ -110,7 +110,7 @@ function App() {
                 </div>
                 <h3 className="text-2xl font-bold text-green-300 mb-4">Marketplace</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Analysis of soil pH, nutrients, and moisture levels with real-time monitoring and predictive analytics for optimal crop conditions.
+                  Secure marketplace for procurement of fertilizers and pesticides, to help farmers grow and increase their crop yield.
                 </p>
               </div>
             </a>
