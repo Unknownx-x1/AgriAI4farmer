@@ -60,7 +60,7 @@ function App() {
 
           {/* ✅ Fixed AI Chatbot Button */}
           <button
-            onClick={() => (window.location.href="https://aipredchatbot12.vercel.app/", "")}
+            onClick={() => (window.location.href="https://aichatbot-inky-sigma.vercel.app/", "")}
             className="bg-gradient-to-r from-green-500 to-emerald-500 px-6 py-2 rounded-full font-semibold text-black hover:from-green-400 hover:to-emerald-400 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105"
           >
             AI Chatbot
