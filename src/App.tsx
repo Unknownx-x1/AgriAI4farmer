@@ -83,10 +83,17 @@ function App() {
             Leverage AI and data-driven insights to forecast crop yields using soil health, weather patterns, and agricultural data.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <button className="bg-gradient-to-r from-green-500 to-emerald-500 px-8 py-4 rounded-full font-bold text-lg text-black hover:from-green-400 hover:to-emerald-400 transition-all duration-300 shadow-2xl hover:shadow-green-500/50 hover:scale-105 group">
+            {/* ✅ Clickable Download Button */}
+            <a
+              href="https://www.mediafire.com/file/dww0fbvkmwn3t9z/AgriAI.apk/file" // 🔗 Replace this with your app download link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-green-500 to-emerald-500 px-8 py-4 rounded-full font-bold text-lg text-black hover:from-green-400 hover:to-emerald-400 transition-all duration-300 shadow-2xl hover:shadow-green-500/50 hover:scale-105 group"
+            >
               Download Our App
               <ArrowRight className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
+
             <button className="border-2 border-green-500/50 px-8 py-4 rounded-full font-bold text-lg text-green-400 hover:border-green-400 hover:bg-green-500/10 transition-all duration-300 hover:scale-105 backdrop-blur-sm">
               Learn More
             </button>
@@ -159,14 +166,12 @@ function App() {
               <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <Users className="w-8 h-8 text-green-400" />
               </div>
-              <h3 className="text-xl font-semibold text-green-300 mb-2"></h3>
               <p className="text-gray-400">Aims to serve Active Farmers</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-teal-500/20 to-cyan-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <Globe className="w-8 h-8 text-teal-400" />
               </div>
-              <h3 className="text-xl font-semibold text-teal-300 mb-2"></h3>
               <p className="text-gray-400">Hopes to Serve Countries to help people around</p>
             </div>
             <div className="text-center group">
