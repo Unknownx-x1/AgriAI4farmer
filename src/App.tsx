@@ -128,7 +128,7 @@ function App() {
                 <div className="bg-gradient-to-br from-teal-500/20 to-cyan-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Cloud className="w-8 h-8 text-teal-400" />
                 </div>
-                <h3 className="text-2xl font-bold text-teal-300 mb-4">Smart Irrigation PLan</h3>
+                <h3 className="text-2xl font-bold text-teal-300 mb-4">Smart Irrigation Plan</h3>
                 <p className="text-gray-300 leading-relaxed">
                   A 7-Day Smart Irrigation Plan  that helps farmers optimize water usage using data-driven decisions rather than traditional fixed watering schedules.
                 </p>
