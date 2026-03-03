@@ -123,14 +123,14 @@ function App() {
             </a>
 
             {/* Weather Forecasting */}
-            <a href="https://weather-station-latest.vercel.app/" className="block relative z-50">
+            <a href="https://irrigation-plan-1.onrender.com/" className="block relative z-50">
               <div className="group bg-gradient-to-br from-teal-900/20 to-cyan-900/20 backdrop-blur-lg border border-teal-500/30 rounded-2xl p-8 hover:border-teal-400/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-teal-500/20">
                 <div className="bg-gradient-to-br from-teal-500/20 to-cyan-500/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Cloud className="w-8 h-8 text-teal-400" />
                 </div>
-                <h3 className="text-2xl font-bold text-teal-300 mb-4">Weather Forecasting</h3>
+                <h3 className="text-2xl font-bold text-teal-300 mb-4">Smart Irrigation PLan</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Real-time and long-term climate predictions using advanced meteorological data and machine learning algorithms.
+                  A 7-Day Smart Irrigation Plan  that helps farmers optimize water usage using data-driven decisions rather than traditional fixed watering schedules.
                 </p>
               </div>
             </a>
